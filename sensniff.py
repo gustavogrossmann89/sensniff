@@ -53,7 +53,7 @@ __version__ = '1.2'
 ### Default configuration values
 #####################################
 defaults = {
-    'device': '/dev/ttyUSB0',
+    'device': '/dev/ttyACM0',
     'baud_rate': 460800,
     'out_file': 'sensniff.hexdump',
     'out_fifo': '/tmp/sensniff',
